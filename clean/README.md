@@ -1,0 +1,1 @@
+This folder will have nice and clean notebooks which will help me remember and track the work I did related to GPs mostly with GPy. I think I will have a seperate folder which will have notebooks related to other stuff. The purpose for this repo. will be to log my work and others can study it as well.
