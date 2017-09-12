@@ -18447,6 +18447,17 @@ Grid sum: 1.98245968551e-17
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Special-Note">Special Note<a class="anchor-link" href="#Special-Note">&#182;</a></h2><p>As Michael Smith had pointed out, the discrepancy above is because of the renormalisation of weights(to make the sum 1, so that if there are some points with very low density(less than 1%), they can just be weeded out easily for higher dimension) we do in code for calculating product of integration weight and posterior density.</p>
+<p>Grid sum and lapace sum are almost identical.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Model-Selection">Model Selection<a class="anchor-link" href="#Model-Selection">&#182;</a></h2><p>Compare different priors with LOO score or Hyperparameter integration.</p>
 <h3 id="LOO">LOO<a class="anchor-link" href="#LOO">&#182;</a></h3><p>The marginal likelihood given by integrating out latent value $\textbf{f}$ is given as :
 $$ P(Y^{*}|X, \theta)$$ 
